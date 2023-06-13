@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegance Attire</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Elegance Attire</div>
+    <div class="bars" onclick="toggleNavbar()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="index.html" >Home</a>
+        </li>
+        <li>
+          <a href="pages-male.html">Products Male</a>
+        </li>
+        <li>
+          <a href="pages-female.html">Products Female</a>
+        </li>
+        <li>
+          <a href="pages-kids.html">Products Kids</a>
+        </li>
+        <li>
+          <a href="contacto.html"class="active">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <nav>
+    <main>
+        <div class="contenedor">
+          <div class="contenido-principal">
+            <h1 class="contenido-principal__titulo">Contact</h1>
+            <hr class="subtitulo-linea">
+            <h2 class="subtitulo">Get in touch with us</h2>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+      
+  </nav>
